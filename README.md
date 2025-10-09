@@ -1,18 +1,43 @@
-# React + Vite
+# Taha's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This is a showcase of my skills, projects, and experiences as a front-end and back-end developer. I focus on building responsive, dynamic, and visually engaging web applications with modern technologies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About Me
 
-## React Compiler
+Hi, I’m **Taha**. I specialize in front-end development and am currently expanding my skills into full-stack development with React.js and Next.js. I also have a passion for exploring Discord bot development using Discord.js.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+I enjoy creating user-friendly interfaces, clean designs, and interactive experiences for users.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## Skills
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Front-End:** HTML, CSS, JavaScript, React.js, Tailwind CSS, WordPress
+- **Back-End:** PHP, MySQL
+- **Other:** Discord.js, Git, Responsive Design
+
+---
+
+## Technologies
+
+This portfolio project uses:
+
+- **React.js** – Component-based UI development
+- **Tailwind CSS** – Utility-first styling
+- **Vite** – Fast bundler and development server
+- **React Router** – Client-side routing
+- **Custom Fonts & Animations** – Enhanced design and user experience
+
+---
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/delepover56/NewPortfolio.git
+```
