@@ -1,8 +1,8 @@
 // import chicLighting from "/Images/Projects/ChicLighting.webp";
-// import championGarage from "/Images/Projects/ChampionGarageDoors.png";
-// import northAmerican from "/Images/Projects/NorthAmericanElevator.png";
-// import spamX from "/Images/Projects/SpamX.png";
-// import puriGroup from "/Images/Projects/PuriGroup.png";
+// import championGarage from "/Images/Projects/ChampionGarageDoors.webp";
+// import northAmerican from "/Images/Projects/NorthAmericanElevator.webp";
+// import spamX from "/Images/Projects/SpamX.webp";
+// import puriGroup from "/Images/Projects/PuriGroup.webp";
 
 const MyProjects = [
     {
@@ -14,25 +14,25 @@ const MyProjects = [
     {
         name: "Champion Garage Doors",
         link: "https://tsd-demo.com/dormatic/",
-        image: "/Images/Projects/ChampionGarageDoors.png",
+        image: "/Images/Projects/ChampionGarageDoors.webp",
         alt: "Website screenshot of Champion Garage Doors project",
     },
     {
         name: "North American Elevator",
         link: "https://tsd-demo.com/elevator/",
-        image: "/Images/Projects/NorthAmericanElevator.png",
+        image: "/Images/Projects/NorthAmericanElevator.webp",
         alt: "Website screenshot of North American Elevator project",
     },
     {
         name: "SpamX",
         link: "https://spamx.co/",
-        image: "/Images/Projects/SpamX.png",
+        image: "/Images/Projects/SpamX.webp",
         alt: "Website screenshot of SpamX project",
     },
     {
         name: "Puri Group",
         link: "https://valscode.com/puri-group/",
-        image: "/Images/Projects/PuriGroup.png",
+        image: "/Images/Projects/PuriGroup.webp",
         alt: "Website screenshot of Puri Group project",
     },
 ];
