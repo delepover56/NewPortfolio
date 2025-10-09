@@ -27,6 +27,7 @@ const Header = () => {
             {/* Logo */}
             <NavLink
                 to="/"
+                onClick={(e) => handleClick(e, "/")}
                 className="flex justify-center items-center gap-[5px] text-4xl font-bold text-[#009b39] lilita group"
             >
                 {["T", "a", "h", "a", " ", "K", "h", "a", "n"].map((char, index) => (

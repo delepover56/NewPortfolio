@@ -12,23 +12,22 @@ const MobileHeader = () => {
     { to: "/contact", label: "Contact" },
   ];
 
-  const handleClick = (e, to) => {
-    e.preventDefault();
+  const handleClick = (to) => {
     setIsOpen(false); // close menu
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    setTimeout(() => navigate(to), 200); // navigate after scroll starts
+    navigate(to); // navigate immediately
+    window.scrollTo({ top: 0, behavior: "smooth" }); // scroll on new page
   };
 
   return (
     <header className="sticky overflow-hidden lg:hidden top-0 w-[90%] z-[100] justify-self-center mt-5">
       {/* Top Bar */}
       <div className="relative flex justify-between items-center p-4 bg-[#0f0f0f80] backdrop-blur-md border-b border-[#00ff5e40] rounded-2xl">
-        <NavLink
-          to="/"
+        <button
+          onClick={() => handleClick("/")}
           className="text-[#00ff5e] lilita tracking-widest text-[clamp(1.5rem,3vw,2.5rem)] uppercase"
         >
           Taha Khan
-        </NavLink>
+        </button>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -52,13 +51,12 @@ const MobileHeader = () => {
           }`}
       >
         <div className="relative w-full flex justify-center items-center bg-[#0f0f0f70] border-b border-[#00ff5e40] py-6 mb-6">
-          <NavLink
-            to="/"
+          <button
+            onClick={() => handleClick("/")}
             className="text-[#00ff5e] lilita uppercase tracking-widest text-3xl"
-            onClick={() => setIsOpen(false)}
           >
             Taha Khan
-          </NavLink>
+          </button>
 
           <button
             onClick={() => setIsOpen(false)}
@@ -73,7 +71,7 @@ const MobileHeader = () => {
             <li key={to} className="w-full transition-colors duration-200">
               <NavLink
                 to={to}
-                onClick={(e) => handleClick(e, to)}
+                onClick={() => handleClick(to)}
                 className={({ isActive }) =>
                   `flex items-center py-3 px-10 w-full gap-3 transition-colors lilita text-[clamp(1rem,2.5vw,1.5rem)] ${isActive
                     ? "bg-[#1a1a1a80] backdrop-blur-md text-[#00ff5e]"
