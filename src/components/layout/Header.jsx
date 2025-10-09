@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router";
+import { NavLink, useNavigate } from "react-router";
 import { User } from "@/assets/icons/User";
 import { Atom } from "@/assets/icons/Atom";
 import { Rocket } from "@/assets/icons/Rocket";
@@ -7,6 +7,7 @@ import { FileStack } from "@/assets/icons/FileStack";
 
 const Header = () => {
     const [hovered, setHovered] = useState(null);
+    const navigate = useNavigate();
 
     const menuItems = [
         { to: "/", label: "About", Icon: User, key: "about" },
@@ -15,13 +16,18 @@ const Header = () => {
         { to: "/contact", label: "Contact", Icon: Rocket, key: "contact" },
     ];
 
+    const handleClick = (e, to) => {
+        e.preventDefault(); // prevent default NavLink jump
+        window.scrollTo({ top: 0, behavior: "smooth" }); // smooth scroll to top
+        setTimeout(() => navigate(to), 200); // navigate after a short delay
+    };
+
     return (
         <header className="hidden lg:flex sticky items-center justify-between w-[90%] py-4 px-20 top-0 z-[999] rounded-2xl select-none bg-[#0f0f0fb7] backdrop-blur-lg border border-[#00ff5e40] mt-5">
             {/* Logo */}
             <NavLink
                 to="/"
                 className="flex justify-center items-center gap-[5px] text-4xl font-bold text-[#009b39] lilita group"
-                id="logo"
             >
                 {["T", "a", "h", "a", " ", "K", "h", "a", "n"].map((char, index) => (
                     <span
@@ -40,15 +46,16 @@ const Header = () => {
                     {menuItems.map(({ to, label, Icon, key }) => (
                         <li
                             key={key}
-                            className="w-[90px] h-[90px] transition-all duration-300"
+                            className="w-[90px] h-[90px] active:scale-[0.9] transition-all duration-300"
                             onMouseEnter={() => setHovered(key)}
                             onMouseLeave={() => setHovered(null)}
                         >
                             <NavLink
                                 to={to}
+                                onClick={(e) => handleClick(e, to)}
                                 className={({ isActive }) => {
                                     const activeOrHovered = isActive || hovered === key;
-                                    return `rounded-2xl border border-[#00ff5e40] active:scale-[0.9] flex flex-col justify-around items-center w-full h-full py-2 px-2 transition-all duration-300 ${activeOrHovered
+                                    return `flex flex-col justify-around items-center w-full h-full py-2 px-2 transition-all duration-300 rounded-2xl border border-[#00ff5e40] ${activeOrHovered
                                         ? "bg-[#00ff5e20] shadow-[3px_3px_6px_#00ff5e] text-white"
                                         : "bg-[#0f0f0f80] backdrop-blur-md text-[#009b39]"
                                         }`;

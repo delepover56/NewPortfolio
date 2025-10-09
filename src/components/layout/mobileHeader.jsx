@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router"; // <-- use NavLink
+import { NavLink, useNavigate } from "react-router";
 
 const MobileHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const menuItems = [
     { to: "/", label: "About" },
@@ -11,8 +12,16 @@ const MobileHeader = () => {
     { to: "/contact", label: "Contact" },
   ];
 
+  const handleClick = (e, to) => {
+    e.preventDefault();
+    setIsOpen(false); // close menu
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setTimeout(() => navigate(to), 200); // navigate after scroll starts
+  };
+
   return (
     <header className="sticky overflow-hidden lg:hidden top-0 w-[90%] z-[100] justify-self-center mt-5">
+      {/* Top Bar */}
       <div className="relative flex justify-between items-center p-4 bg-[#0f0f0f80] backdrop-blur-md border-b border-[#00ff5e40] rounded-2xl">
         <NavLink
           to="/"
@@ -29,6 +38,7 @@ const MobileHeader = () => {
         </button>
       </div>
 
+      {/* Overlay */}
       {isOpen && (
         <div
           onClick={() => setIsOpen(false)}
@@ -36,6 +46,7 @@ const MobileHeader = () => {
         />
       )}
 
+      {/* Sidebar */}
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-[#0f0f0f60] backdrop-blur-xl border-l border-[#00ff5e40] z-50 transform transition-transform duration-300 ease-in-out flex flex-col ${isOpen ? "translate-x-0" : "translate-x-[330px]"
           }`}
@@ -59,13 +70,10 @@ const MobileHeader = () => {
 
         <ul className="flex flex-col justify-start items-start w-full text-lg font-medium">
           {menuItems.map(({ to, label }) => (
-            <li
-              key={to}
-              className="w-full transition-colors duration-200 poppins-regular"
-            >
+            <li key={to} className="w-full transition-colors duration-200 poppins-regular">
               <NavLink
                 to={to}
-                onClick={() => setIsOpen(false)}
+                onClick={(e) => handleClick(e, to)}
                 className={({ isActive }) =>
                   `flex items-center py-3 px-10 w-full gap-3 transition-colors ${isActive
                     ? "bg-[#1a1a1a80] backdrop-blur-md text-[#00ff5e]"
