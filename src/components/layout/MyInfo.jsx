@@ -120,10 +120,10 @@ const MyInfo = () => {
                         </svg>
                     </div>
                     <div className="flex justify-center items-start flex-col gap-[2px] phoneInfo">
-                        <h6 className="poppins text-[10px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Phone:</h6>
+                        <h6 className="poppins text-[12px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Phone:</h6>
                         <a
                             href="tel:+923192924947"
-                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
+                            className="text-[#00ff5e] poppins-semibold text-[12px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
                         >
                             +92{" "}319{" "}292{" "}4947
                         </a>
@@ -144,10 +144,10 @@ const MyInfo = () => {
                         </svg>
                     </div>
                     <div className="flex justify-center items-start flex-col gap-[2px] emailInfo">
-                        <h6 className="poppins text-[10px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">E-mail:</h6>
+                        <h6 className="poppins text-[12px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">E-mail:</h6>
                         <a
                             href="mailto:Taha82426980@gmail.com"
-                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
+                            className="text-[#00ff5e] poppins-semibold text-[12px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
                         >
                             Taha82426980@gmail.com
                         </a>
@@ -169,10 +169,10 @@ const MyInfo = () => {
                         </svg>
                     </div>
                     <div className="flex justify-center items-start flex-col gap-[2px] locationInfo">
-                        <h6 className="poppins text-[10px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Location:</h6>
+                        <h6 className="poppins text-[12px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Location:</h6>
                         <a
                             href="https://www.google.com/maps/place/Karachi/@25.0740005,66.9469006,12z/data=!4m5!3m4!1s0x0:0x0!8m2!3d25.0740005!4d66.9469006"
-                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
+                            className="text-[#00ff5e] poppins-semibold text-[12px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
                         >
                             Karachi, Pakistan
                         </a>
@@ -193,8 +193,8 @@ const MyInfo = () => {
                         </svg>
                     </div>
                     <div className="flex justify-center items-start flex-col gap-[2px] birthdayInfo">
-                        <h6 className="poppins text-[10px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Birthday:</h6>
-                        <p className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]">
+                        <h6 className="poppins text-[12px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Birthday:</h6>
+                        <p className="text-[#00ff5e] poppins-semibold text-[12px] xs:text-[14px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]">
                             11th October
                         </p>
                     </div>
