@@ -12,7 +12,7 @@ const MobileHeader = () => {
   ];
 
   return (
-    <header className="sticky overflow-hidden top-0 w-[90%] z-[100] justify-self-center mt-5">
+    <header className="sticky overflow-hidden lg:hidden top-0 w-[90%] z-[100] justify-self-center mt-5">
       <div className="relative flex justify-between items-center p-4 bg-[#0f0f0f80] backdrop-blur-md border-b border-[#00ff5e40] rounded-2xl">
         <NavLink
           to="/"
