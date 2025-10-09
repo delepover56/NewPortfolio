@@ -27,7 +27,7 @@ const MyInfo = () => {
             <div className="socialLinks flex gap-4 mt-2">
                 {/* Instagram */}
                 <a
-                    href="https://www.instagram.com/d.a.r.t.h_r.e.v.a.n/"
+                    href="https://www.instagram.com/its.me_t.a.h.a/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="instagram flex justify-center items-center bg-gradient-to-br from-pink-800 via-pink-500 to-purple-400 w-[35px] h-[35px] rounded-md transition-all duration-[0.3s] hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
@@ -81,7 +81,7 @@ const MyInfo = () => {
                 </a>
                 {/* Whatsapp */}
                 <a
-                    href="https://wa.me/3192924947"
+                    href="https://wa.me/923191327495"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="whatsapp flex justify-center items-center bg-gradient-to-br from-green-500 via-green-400 to-lime-300 w-[35px] h-[35px] rounded-md transition-all duration-300 hover:scale-[1.07] active:duration-[0.2s] shadow-[5px_5px_5px_0px_#000000FF]"
@@ -120,10 +120,10 @@ const MyInfo = () => {
                         </svg>
                     </div>
                     <div className="flex justify-center items-start flex-col gap-[2px] phoneInfo">
-                        <h6 className="poppins text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] text-[#00ff5e]">Phone:</h6>
+                        <h6 className="poppins text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Phone:</h6>
                         <a
                             href="tel:+923192924947"
-                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px]"
+                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
                         >
                             +92{" "}319{" "}292{" "}4947
                         </a>
@@ -144,10 +144,10 @@ const MyInfo = () => {
                         </svg>
                     </div>
                     <div className="flex justify-center items-start flex-col gap-[2px] emailInfo">
-                        <h6 className="poppins text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] text-[#00ff5e]">E-mail:</h6>
+                        <h6 className="poppins text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">E-mail:</h6>
                         <a
                             href="mailto:Taha82426980@gmail.com"
-                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px]"
+                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
                         >
                             Taha82426980@gmail.com
                         </a>
@@ -169,10 +169,10 @@ const MyInfo = () => {
                         </svg>
                     </div>
                     <div className="flex justify-center items-start flex-col gap-[2px] locationInfo">
-                        <h6 className="poppins text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] text-[#00ff5e]">Location:</h6>
+                        <h6 className="poppins text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Location:</h6>
                         <a
                             href="https://www.google.com/maps/place/Karachi/@25.0740005,66.9469006,12z/data=!4m5!3m4!1s0x0:0x0!8m2!3d25.0740005!4d66.9469006"
-                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px]"
+                            className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]"
                         >
                             Karachi, Pakistan
                         </a>
@@ -193,8 +193,8 @@ const MyInfo = () => {
                         </svg>
                     </div>
                     <div className="flex justify-center items-start flex-col gap-[2px] birthdayInfo">
-                        <h6 className="poppins text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] text-[#00ff5e]">Birthday:</h6>
-                        <p className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px]">
+                        <h6 className="poppins text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[14px] text-[#00ff5e]">Birthday:</h6>
+                        <p className="text-[#00ff5e] poppins-semibold text-[10px] xs:text-[12px] sm:text-[12px] md:text-[14px] lg:text-[12px] xl:text-[16px]">
                             11th October
                         </p>
                     </div>

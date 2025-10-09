@@ -5,10 +5,10 @@ const Projects = () => {
   return (
     <section className="flex flex-col justify-center items-center max-w-[100%] lg:w-[65%] 2xl:w-[75%] h-auto gap-[30px] select-none mt-10">
       <div className="text-white w-full py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
-        <h1 className="merienda text-3xl text-[#00ff5e] mb-5 w-[max-content]">
+        <h1 className="merienda text-2xl lg:text-4xl text-[#00ff5e] mb-5 w-[max-content]">
           Portfolio
         </h1>
-        <p className="poppins text-md text-gray-300 leading-relaxed text-start mt-[40px]">
+        <p className="poppins text-sm sm:text-lg lg:text-sm xl:text-lg text-gray-300 leading-relaxed text-start mt-[40px]">
           I specialize in building dynamic, responsive, and visually engaging
           websites. My focus is on front-end development using{" "}
           <span className="text-[#00ff5e] font-medium">HTML</span>,{" "}
@@ -41,7 +41,7 @@ const Projects = () => {
       </div>
 
       <div className="text-white w-full py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
-        <h1 className="merienda text-3xl text-[#00ff5e] mb-5">
+        <h1 className="merienda text-2xl lg:text-4xl text-[#00ff5e] mb-5">
           My Projects!
         </h1>
         {/* Projects Slider */}

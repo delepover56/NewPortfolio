@@ -32,11 +32,11 @@ const Contact = () => {
   return (
     <section className="flex flex-col justify-center items-center max-w-[100%] lg:w-[65%] 2xl:w-[700px] h-auto gap-[30px] select-none mt-10">
       <div className="text-white w-full py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
-        <h1 className="merienda text-3xl lg:text-4xl text-[#00ff5e] mb-5">
+        <h1 className="merienda text-2xl lg:text-4xl text-[#00ff5e] mb-5">
           Hire me
         </h1>
 
-        <p className="poppins text-md text-gray-300 leading-relaxed mb-6">
+        <p className="poppins text-sm sm:text-lg lg:text-sm xl:text-lg text-gray-300 leading-relaxed mb-6 mt-[40px]">
           I'm currently open to
           <span className="text-[#00ff5e] font-medium"> internships</span>,
           <span className="text-[#00ff5e] font-medium"> freelance work</span>,

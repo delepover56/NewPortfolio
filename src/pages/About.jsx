@@ -4,10 +4,10 @@ const About = () => {
   return (
     <section className="flex flex-col justify-center items-center max-w-[100%] lg:w-[65%] 2xl:w-[75%] h-auto gap-[30px] select-none mt-10">
       <div className="text-white w-full py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
-        <h1 className="merienda text-3xl lg:text-4xl text-[#00ff5e] mb-5 w-[max-content]">
+        <h1 className="merienda text-2xl lg:text-4xl text-[#00ff5e] mb-5 w-[max-content]">
           Get To Know Me!
         </h1>
-        <p className="poppins text-md text-gray-300 leading-relaxed text-start mt-[40px]">
+        <p className="poppins text-sm sm:text-lg lg:text-sm xl:text-lg text-gray-300 leading-relaxed text-start mt-[40px]">
           Hey there! I'm{" "}
           <span className="text-[#00ff5e] font-medium">M. Taha Khan</span> – a
           passionate front-end web developer from the bustling city of Karachi!
@@ -50,7 +50,7 @@ const About = () => {
           What I Do!
         </h1>
         {/* Cards */}
-        <div className="flex flex-wrap justify-center gap-x-5 gap-y-8 mt-[50px] max-w-full mx-auto 2xl:mx-0 2xl:justify-start [@media(min-width:1600px)]:flex-nowrap [@media(min-width:1600px)]:justify-between">
+        <div className="flex flex-wrap justify-center gap-x-5 gap-y-8 mt-[50px] max-w-full mx-auto 2xl:mx-0 2xl:justify-start [@media(min-width:1600px)]:flex-nowrap [@media(min-width:1600px)]:justify-evenly">
           {/* Web Development */}
           <div
             className="flex flex-col justify-start items-center gap-3 px-5 py-9 sm:w-[300px] w-full border border-[#00ff5e66] rounded-2xl bg-[#0f0f0fb7] hover:bg-[#00ff5e10] hover:shadow-[3px_3px_6px_#00ff5e] transition-all duration-300"
@@ -67,10 +67,10 @@ const About = () => {
                 <path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z"></path>
               </svg>
             </div>
-            <h6 className="roboto-slab text-[20px] text-center text-[#00ff5e]">
+            <h6 className="roboto-slab text-lg sm:text-xl lg:text-lg text-center text-[#00ff5e]">
               Web Development
             </h6>
-            <p className="poppins text-sm text-gray-300 text-center">
+            <p className="poppins text-sm sm:text-lg lg:text-sm xl:text-lg text-gray-300 text-center">
               Crafting sleek, responsive websites with modern tools and clean
               code.
             </p>
@@ -91,10 +91,10 @@ const About = () => {
                 <path d="M14.82 4.26a10.14 10.14 0 0 0-.53 1.1 14.66 14.66 0 0 0-4.58 0 10.14 10.14 0 0 0-.53-1.1 16 16 0 0 0-4.13 1.3 17.33 17.33 0 0 0-3 11.59 16.6 16.6 0 0 0 5.07 2.59A12.89 12.89 0 0 0 8.23 18a9.65 9.65 0 0 1-1.71-.83 3.39 3.39 0 0 0 .42-.33 11.66 11.66 0 0 0 10.12 0q.21.18.42.33a10.84 10.84 0 0 1-1.71.84 12.41 12.41 0 0 0 1.08 1.78 16.44 16.44 0 0 0 5.06-2.59 17.22 17.22 0 0 0-3-11.59 16.09 16.09 0 0 0-4.09-1.35zM8.68 14.81a1.94 1.94 0 0 1-1.8-2 1.93 1.93 0 0 1 1.8-2 1.93 1.93 0 0 1 1.8 2 1.93 1.93 0 0 1-1.8 2zm6.64 0a1.94 1.94 0 0 1-1.8-2 1.93 1.93 0 0 1 1.8-2 1.92 1.92 0 0 1 1.8 2 1.92 1.92 0 0 1-1.8 2z"></path>
               </svg>
             </div>
-            <h6 className="roboto-slab text-[20px] text-center text-[#00ff5e]">
+            <h6 className="roboto-slab text-lg sm:text-xl lg:text-lg text-center text-[#00ff5e]">
               Discord Bot Development
             </h6>
-            <p className="poppins text-sm text-gray-300 text-center ">
+            <p className="poppins text-sm sm:text-lg lg:text-sm xl:text-lg text-gray-300 text-center ">
               Creating custom Discord bots with Discord.js to automate tasks and
               boost server activity.
             </p>
@@ -116,10 +116,10 @@ const About = () => {
                 <path d="m10 14-1-1-3 4h12l-5-7z"></path>
               </svg>
             </div>
-            <h6 className="roboto-slab text-[20px] text-center text-[#00ff5e]">
+            <h6 className="roboto-slab text-lg sm:text-xl lg:text-lg text-center text-[#00ff5e]">
               Image Editing
             </h6>
-            <p className="poppins text-sm text-gray-300 text-center ">
+            <p className="poppins text-sm sm:text-lg lg:text-sm xl:text-lg text-gray-300 text-center ">
               While image editing isn't my primary focus, I occasionally dive
               into it when needed.
             </p>
@@ -142,10 +142,10 @@ const About = () => {
               </svg>
 
             </div>
-            <h6 className="roboto-slab text-[20px] text-center text-[#00ff5e]">
+            <h6 className="roboto-slab text-lg sm:text-xl lg:text-lg text-center text-[#00ff5e]">
               Video Games
             </h6>
-            <p className="poppins text-sm text-gray-300 text-center ">
+            <p className="poppins text-sm sm:text-lg lg:text-sm xl:text-lg text-gray-300 text-center ">
               I love playing video games. it's fun and a great way to unwind,
               and relax myself.
             </p>
