@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section className="flex flex-col justify-center items-center max-w-[100%] lg:w-[65%] 2xl:w-[75%] h-auto gap-[30px] select-none mt-10">
-      <div className="text-white w-full py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
+      <div className="text-white w-full py-10 md:py-10 lg:py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
         <h1 className="merienda text-2xl lg:text-4xl text-[#00ff5e] mb-5 w-[max-content]">
           Get To Know Me!
         </h1>
@@ -45,7 +45,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="text-white w-full py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
+      <div className="text-white w-full py-10 md:py-10 lg:py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
         <h1 className="merienda text-2xl lg:text-4xl text-[#00ff5e] mb-5 afterLine2 w-[max-content]">
           What I Do!
         </h1>

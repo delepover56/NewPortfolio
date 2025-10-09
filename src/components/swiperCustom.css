@@ -7,9 +7,12 @@
     height: max-content;
   }
 }
-/* .swiper-pagination {
-  bottom: 15% !important;
-} */
+
+@media (max-width: 767px) {
+  .swiper-pagination {
+    bottom: 15% !important;
+  }
+}
 
 .swiper-pagination-bullet {
   background-color: #00ff5e !important;

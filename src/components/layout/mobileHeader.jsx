@@ -70,12 +70,12 @@ const MobileHeader = () => {
 
         <ul className="flex flex-col justify-start items-start w-full text-lg font-medium">
           {menuItems.map(({ to, label }) => (
-            <li key={to} className="w-full transition-colors duration-200 poppins-regular">
+            <li key={to} className="w-full transition-colors duration-200">
               <NavLink
                 to={to}
                 onClick={(e) => handleClick(e, to)}
                 className={({ isActive }) =>
-                  `flex items-center py-3 px-10 w-full gap-3 transition-colors ${isActive
+                  `flex items-center py-3 px-10 w-full gap-3 transition-colors lilita text-[clamp(1rem,2.5vw,1.5rem)] ${isActive
                     ? "bg-[#1a1a1a80] backdrop-blur-md text-[#00ff5e]"
                     : "text-[#e6e6e6] hover:text-[#00ff5e] hover:bg-[#1a1a1a80] hover:backdrop-blur-md"
                   }`

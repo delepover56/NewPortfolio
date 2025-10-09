@@ -4,7 +4,7 @@ import SkillCard from "@/components/SkillCard";
 const Resume = () => {
   return (
     <section className="flex flex-col justify-center items-center max-w-[100%] lg:w-[65%] 2xl:w-[700px] h-auto gap-[30px] select-none mt-10">
-      <div className="text-white w-full py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
+      <div className="text-white w-full py-10 md:py-10 lg:py-18 px-8 bg-[#0f0f0f85] rounded-xl border border-[#00ff5e66] backdrop-blur-md">
         <h1 className="merienda text-3xl lg:text-4xl text-[#00ff5e] mb-5 afterLine w-[max-content]">
           My Resume
         </h1>
