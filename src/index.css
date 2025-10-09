@@ -252,6 +252,12 @@
   background-color: transparent;
 }
 
+/* Body */
+
+body {
+  background-color: #081613;
+}
+
 /* Animations Wave */
 @keyframes waveAnimation {
   0%,
