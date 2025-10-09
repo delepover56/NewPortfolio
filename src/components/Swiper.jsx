@@ -14,12 +14,12 @@ const Slider = () => {
             modules={[Autoplay, Pagination]}
             pagination={true}
             loop={true}
-            // autoplay={{
-            //   delay: 3500,
-            //   disableOnInteraction: false,
-            //   pauseOnMouseEnter: true,
-            // }}
-            speed={800}
+            autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            }}
+            speed={1600}
             breakpoints={{
                 768: { slidesPerView: 2.5 },
                 1024: { slidesPerView: 2 },
