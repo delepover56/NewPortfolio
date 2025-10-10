@@ -206,6 +206,7 @@ const MyInfo = () => {
             <div className="w-full flex justify-center items-center mt-4">
                 <a
                     href="/TahaResume.pdf"
+                    target="_blank"
                     className="bg-[#053a00ff] rounded-xl border border-[#00ff5e66] backdrop-blur-md py-[10px] px-[20px] text-[#00ff5e] poppins-semibold hover:border-[#053a00ff] hover:bg-[#00ff5e] hover:text-[#053a00ff] transition-all duration-400 hover:shadow-[0px_0px_50px_10px_rgba(5,_58,_0,_1)] w-[90%] text-center sm:w-[50%] lg:w-[90%] xl:w-[60%] hover:cursor-pointer"
                 >
                     Download Resume
