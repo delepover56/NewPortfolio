@@ -15,7 +15,7 @@ const MobileHeader = () => {
   const handleClick = (to) => {
     setIsOpen(false); // close menu
     navigate(to); // navigate immediately
-    window.scrollTo({ top: 0, behavior: "smooth" }); // scroll on new page
+    // window.scrollTo({ top: 0, behavior: "smooth" }); // scroll on new page
   };
 
   return (

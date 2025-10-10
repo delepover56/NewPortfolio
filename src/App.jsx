@@ -5,11 +5,14 @@ import MobileHeader from "@/components/layout/mobileHeader.jsx";
 import MyInfo from "@/components/layout/MyInfo";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import ScrollToOutlet from "@/components/ScrollToOutlet";
+
 
 function App() {
   return (
     <>
       <Background />
+      <ScrollToOutlet />
       <MobileHeader />
       <main className="relative w-full z-10 flex flex-col justify-evenly items-center lg:items-center">
         <Header />
