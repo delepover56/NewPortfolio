@@ -47,7 +47,7 @@ const Header = () => {
                     {menuItems.map(({ to, label, Icon, key }) => (
                         <li
                             key={key}
-                            className="w-[90px] h-[90px] active:scale-[0.9] transition-all duration-300"
+                            className="w-[90px] h-[90px] active:scale-[0.9]"
                             onMouseEnter={() => setHovered(key)}
                             onMouseLeave={() => setHovered(null)}
                         >
