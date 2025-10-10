@@ -131,41 +131,41 @@ const Resume = () => {
             </div>
             <div className="flex justify-center 2xl:justify-start items-start gap-5 flex-wrap">
               {/* HTML */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7] py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7] py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.06] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
                 <h6 className="text-[14px] text-[#00ff5e] poppins">HTML</h6>
               </div>
               {/* CSS */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.06] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
                 <h6 className="text-[14px] text-[#00ff5e] poppins">CSS</h6>
               </div>
               {/* JavaScript */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.06] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
                 <h6 className="text-[14px] text-[#00ff5e] poppins">
                   JavaScript
                 </h6>
               </div>
               {/* React */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.06] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
                 <h6 className="text-[14px] text-[#00ff5e] poppins">React.Js</h6>
               </div>
               {/* Tailwind */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.06] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
                 <h6 className="text-[14px] text-[#00ff5e] poppins">Tailwind</h6>
               </div>
               {/* Discord.Js */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.06] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
                 <h6 className="text-[14px] text-[#00ff5e] poppins">
                   Discord.Js
                 </h6>
               </div>
               {/* WordPress */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.06] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
                 <h6 className="text-[14px] text-[#00ff5e] poppins">
                   WordPress
                 </h6>
               </div>
               {/* PHP */}
-              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] transition-all duration-300 hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.01] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
+              <div className="flex justify-center items-center border border-[#00ff5e99] bg-[#0f0f0fb7]  py-[25px] px-[35px] rounded-[10px] shadow-[0_0_10px_#00ff5e55] hover:shadow-[2px_2px_5px_0px_#00ff5e] hover:scale-[1.06] cursor-pointer active:scale-[0.9] w-[100px] h-[40px] ">
                 <h6 className="text-[14px] text-[#00ff5e] poppins">PHP</h6>
               </div>
             </div>
