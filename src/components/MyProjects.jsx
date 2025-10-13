@@ -1,9 +1,3 @@
-// import chicLighting from "/Images/Projects/ChicLighting.webp";
-// import championGarage from "/Images/Projects/ChampionGarageDoors.webp";
-// import northAmerican from "/Images/Projects/NorthAmericanElevator.webp";
-// import spamX from "/Images/Projects/SpamX.webp";
-// import puriGroup from "/Images/Projects/PuriGroup.webp";
-
 const MyProjects = [
     {
         name: "Chic Lighting",
@@ -13,15 +7,9 @@ const MyProjects = [
     },
     {
         name: "Champion Garage Doors",
-        link: "https://tsd-demo.com/dormatic/",
-        image: "/Images/Projects/ChampionGarageDoors.webp",
-        alt: "Website screenshot of Champion Garage Doors project",
-    },
-    {
-        name: "North American Elevator",
-        link: "https://tsd-demo.com/elevator/",
-        image: "/Images/Projects/NorthAmericanElevator.webp",
-        alt: "Website screenshot of North American Elevator project",
+        link: "https://maxwelltranslate.com/",
+        image: "/Images/Projects/MaxWell.webp",
+        alt: "Website screenshot of Maxwell Translate project",
     },
     {
         name: "SpamX",
